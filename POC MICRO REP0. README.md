@@ -102,7 +102,11 @@ Each repository is independent.
    
 - CI pipeline runs only for that repository
    
-- Service is merged and deployed independently  
+- Service is merged and deployed independently
+
+
+<img width="1354" height="567" alt="image" src="https://github.com/user-attachments/assets/d98d4dd4-fccf-424a-9ed2-49a0c33091f7" />
+ 
 
 ---
 
