@@ -2,7 +2,7 @@
 
 ---
 
-## 1. Introduction
+# 1. Introduction
 
 Version Control System (VCS) helps teams manage source code, track changes, and work together safely. Git is the most commonly used VCS today.
 
@@ -16,98 +16,7 @@ This document explains both Mono Repo and Micro Repo in easy wording, with featu
 
 ---
 
-## 2. What is a Monorepo?
-
-A Monorepo is a single repository that contains multiple projects or services.
-
-**Example Structure**
-
-```text
-company-monorepo/
-├── frontend/
-├── backend/
-├── payment-service/
-├── shared-libs/
-└── README.md
-```
-
----
-
-## 3. Monorepo Features
-
-- Single Git repository
-
-- Shared libraries in one place
-
-- One version control history
-
-- Common coding standards
-
-- Easy dependency management
-
-- Centralized CI/CD
-
----
-
-## 4. Advantages of Monorepo
-
-- Easy code sharing
-
-- Simple dependency management
-
-- One place for all code
-
-- Simpler project versioning
-
-- Easier testing across projects
-
----
-
-## 5. Challenges / Disadvantages of Monorepo
-
-- Repository size becomes very large
-
-- CI/CD can become slow
-
-- Access control is difficult
-
-- One small change can trigger full pipeline
-
-- Not ideal for very large teams
-
----
-
-## 6. Monorepo Workflow
-
-- Developer clones single repo
-
-- Creates a feature branch
-
-- Makes changes in required service
-
-- Runs tests locally
-
-- Raises Pull Request (PR)
-  
-- CI pipeline runs for whole repo
-  
-- Code review and merge
-
----  
-
-## 7. Monorepo Best Practices
-
-- Use clear folder structure
-
-- Optimize CI (run tests only for changed modules)
-
-- Maintain strong branching strategy
-
-- Keep shared libraries well documented
-
----
-
-# 8. What is a Microrepo?
+## 2. What is a Microrepo?
 
 A Microrepo approach means one repository per service or project.
 
@@ -123,7 +32,7 @@ Each repo is independent.
 
 ---
 
-## 9. Microrepo Features
+## 3. Microrepo Features
 
 - One service per repository
 
@@ -137,7 +46,7 @@ Each repo is independent.
 
 ---
 
-## 10. Advantages of Microrepo
+## 4. Advantages of Microrepo
 
 - Faster CI/CD
 
@@ -149,7 +58,7 @@ Each repo is independent.
 
 ---
 
-## 11. Challenges / Disadvantages of Microrepo
+## 5. Challenges / Disadvantages of Microrepo
 
 - Code duplication risk
 
@@ -161,7 +70,7 @@ Each repo is independent.
 
 ---
 
-## 12. Microrepo Workflow
+## 6. Microrepo Workflow
 
 - Developer clones specific repo
 
@@ -179,7 +88,7 @@ Each repo is independent.
 
 ---
 
-## 13. Microrepo Best Practices
+## 7. Microrepo Best Practices
 
 - Follow same repo template
 
@@ -193,18 +102,8 @@ Each repo is independent.
 
 ---
 
-## 14. Mono Repo vs Micro Repo (Summary)
-| Feature |	Monorepo |	Microrepo |
-| ----------- | --------------- | ----------------- |
-| Repo Count |	One |	Many |
-| CI Speed	| Slower	| Faster |
-| Code Sharing |	Easy |	Medium |
-| Scaling	Medium |	Medium | High |
-| Best For |	Small–Medium teams |	Large teams |
 
----
-
-## 15. Conclusion
+## 8. Conclusion
 
 - Monorepo is simple and good for small teams.
 
@@ -214,7 +113,7 @@ Choose based on team size, project complexity, and deployment needs.
 
 ---
 
-## 16. Contact Information
+## 9. Contact Information
 
 | Contact Type | Details                                                             |
 | ------------ | ------------------------------------------------------------------- |
@@ -222,7 +121,7 @@ Choose based on team size, project complexity, and deployment needs.
 
 ---
 
-## 17. References
+## 10. References
 | References Link | Description |
 | --------------------- | --------------------------- |
 | [Git Documentation](https://git-scm.com/doc) | Git Official Documentation |
