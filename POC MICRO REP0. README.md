@@ -8,15 +8,23 @@ Version Control System (VCS) helps teams manage source code, track changes, and 
 
 In real projects, code can be organized in two main ways:
 
-- **Monorepo (Mono Repository)** – all projects/services in one single repository
+- **Monorepo (Monolithic Repository)** – all projects/services in one single repository
 
 - **Microrepo (Multi Repository)** – each project/service has its own separate repository
 
-This document explains both Mono Repo and Micro Repo in easy wording, with features, advantages, disadvantages, workflow and best practices.
+This document explains Micro Repo in easy wording, with features, advantages, disadvantages, workflow and best practices.
 
 ---
 
-## 2. What is a Microrepo?
+## 2. What is a Monorepo?
+
+Monorepo (Monolithic Repository) is a single Git repository that stores and manages the source code for multiple projects or services in one place. It makes code sharing and dependency management easier.
+
+For More Information :
+
+---
+
+## 3. What is a Microrepo?
 
 A Microrepo approach means one repository per service or project.
 
@@ -32,7 +40,7 @@ Each repo is independent.
 
 ---
 
-## 3. Microrepo Features
+## 4. Microrepo Features
 
 - One service per repository
 
@@ -46,7 +54,7 @@ Each repo is independent.
 
 ---
 
-## 4. Advantages of Microrepo
+## 5. Advantages of Microrepo
 
 - Faster CI/CD
 
@@ -58,7 +66,7 @@ Each repo is independent.
 
 ---
 
-## 5. Challenges / Disadvantages of Microrepo
+## 6. Challenges / Disadvantages of Microrepo
 
 - Code duplication risk
 
@@ -70,7 +78,7 @@ Each repo is independent.
 
 ---
 
-## 6. Microrepo Workflow
+## 7. Microrepo Workflow
 
 - Developer clones specific repo
 
@@ -88,7 +96,7 @@ Each repo is independent.
 
 ---
 
-## 7. Microrepo Best Practices
+## 8. Microrepo Best Practices
 
 - Follow same repo template
 
@@ -103,7 +111,7 @@ Each repo is independent.
 ---
 
 
-## 8. Conclusion
+## 9. Conclusion
 
 - Monorepo is simple and good for small teams.
 
@@ -113,7 +121,7 @@ Choose based on team size, project complexity, and deployment needs.
 
 ---
 
-## 9. Contact Information
+## 10. Contact Information
 
 | Contact Type | Details                                                             |
 | ------------ | ------------------------------------------------------------------- |
@@ -121,7 +129,7 @@ Choose based on team size, project complexity, and deployment needs.
 
 ---
 
-## 10. References
+## 11. References
 | References Link | Description |
 | --------------------- | --------------------------- |
 | [Git Documentation](https://git-scm.com/doc) | Git Official Documentation |
