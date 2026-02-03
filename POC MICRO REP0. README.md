@@ -16,7 +16,7 @@
 2. [What is a Microrepo?](#2-what-is-a-microrepo)
 3. [Microrepo Features](#3-microrepo-features)
 4. [Advantages of Microrepo](#4-advantages-of-microrepo)
-5. [Challenges / Disadvantages of Microrepo](#5-challenges--disadvantages-of-microrepo)
+5. [Disadvantages of Microrepo](#5-disadvantages-of-microrepo)
 6. [Microrepo Workflow](#6-microrepo-workflow)
 7. [Microrepo Best Practices](#7-microrepo-best-practices)
 8. [Conclusion](#8-conclusion)
@@ -74,7 +74,7 @@ Each repository is independent.
 
 ---
 
-## 5. Challenges / Disadvantages of Microrepo
+## 5. Disadvantages of Microrepo
 
 - Code duplication risk
 
