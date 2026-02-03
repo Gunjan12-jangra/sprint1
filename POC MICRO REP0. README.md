@@ -1,4 +1,4 @@
-# Microrepo
+# Microrepo - Documentation
 
 ---
 
@@ -52,15 +52,13 @@ Each repository is independent.
 
 ## 3. Microrepo Features
 
-- One service per repository
-
-- Independent versioning
-
-- Separate CI/CD pipelines
-
-- Better access control
-
-- Faster builds
+| Feature |	Description |
+| ---------------------- | -------------------------------- |
+| One service per repository |	Each repository contains only a single service |
+| Separate CI/CD pipelines |	Each service has its own build and deployment pipeline |
+| Better access control	| Access can be controlled at the repository level |
+| Faster builds |	Smaller repositories result in faster build times |
+| Easier debugging | Issues are isolated to a single service/repository |
 
 ---
 
@@ -90,19 +88,19 @@ Each repository is independent.
 
 ## 6. Microrepo Workflow
 
-- Developer clones a specific repository
-  
-- Creates a feature branch
-  
-- Makes code changes
-  
-- Runs tests
-    
-- Creates a Pull Request (PR)
-   
-- CI pipeline runs only for that repository
-   
-- Service is merged and deployed independently
+**1. Developer clones a specific repository** – The developer downloads only the required service repository.
+
+**2. Creates a feature branch** – A new branch is created to work safely on changes.
+
+**3. Makes code changes** – The developer updates or adds code for that service.
+
+**4. Runs tests** – Tests are run to check if the code is working properly.
+
+**5. Creates a Pull Request (PR)** – The changes are sent for review and approval.
+
+**6. CI pipeline runs only for that repository** – Automated build and tests run only for that service.
+
+**7. Service is merged and deployed independently** – After approval, the service is deployed without affecting other services.
 
 
 <img width="1354" height="567" alt="image" src="https://github.com/user-attachments/assets/d98d4dd4-fccf-424a-9ed2-49a0c33091f7" />
@@ -127,7 +125,7 @@ Each repository is independent.
 
 ## 8. Conclusion
 
-Microrepo is best for large teams and microservices projects. It allows teams to work and deploy services independently.
+Microrepo is best suited for large teams and microservices-based projects. It enables teams to develop, test, and deploy services independently.
 
 ---
 
@@ -142,7 +140,7 @@ Microrepo is best for large teams and microservices projects. It allows teams to
 ## 10. References
 | References Link | Description |
 | --------------------- | --------------------------- |
-| [Git Documentation](https://git-scm.com/doc) | Git Official Documentation |
-| [Microservices](https://microservices.io/) | Microservices Architecture |
+| [Monorepo and Multi‑Repo](https://medium.com/@kazimozkabadayi/choosing-between-monorepo-and-multi-repo-architectures-in-software-development-5b9357334ed2) | When and why to choose Multi‑Repo over Monorepo |
+| [Monorepo vs Microrepo](https://dev.to/mrizwanashiq/monorepo-vs-microrepo-m58)| Monorepo and microrepo approaches |
 
 ---
