@@ -1,32 +1,42 @@
-# Micro Repo
+# Microrepo
 
 ---
 
-# 1. Introduction
+## Authors
 
-Version Control System (VCS) helps teams manage source code, track changes, and work together safely. Git is the most commonly used VCS today.
-
-In real projects, code can be organized in two main ways:
-
-- **Monorepo (Monolithic Repository)** – all projects/services in one single repository
-
-- **Microrepo (Multi Repository)** – each project/service has its own separate repository
-
-This document explains Micro Repo in easy wording, with features, advantages, disadvantages, workflow and best practices.
+| Author           | Created    | Version | Last updated by  | Last Edited On | L0 Reviewer | L1 Reviewer | L2 Reviewer |
+| ---------------- |---------------- | ------- | ---------------- | -------------- | ----------- | ----------- | ----------- |
+| Gunjan Jangra  |  3-02-2026    |  1.0     | Gunjan Jangra |  3-02-2026     |       |          |             |             
 
 ---
 
-## 2. What is a Monorepo?
+## Table of Contents
 
-Monorepo (Monolithic Repository) is a single Git repository that stores and manages the source code for multiple projects or services in one place. It makes code sharing and dependency management easier.
-
-For More Information :
+1. [Introduction](#1-introduction)
+2. [What is a Microrepo?](#2-what-is-a-microrepo)
+3. [Microrepo Features](#3-microrepo-features)
+4. [Advantages of Microrepo](#4-advantages-of-microrepo)
+5. [Challenges / Disadvantages of Microrepo](#5-challenges--disadvantages-of-microrepo)
+6. [Microrepo Workflow](#6-microrepo-workflow)
+7. [Microrepo Best Practices](#7-microrepo-best-practices)
+8. [Conclusion](#8-conclusion)
+9. [Contact Information](#9-contact-information)
+10. [References](#10-references)
 
 ---
 
-## 3. What is a Microrepo?
+## 1. Introduction
 
-A Microrepo approach means one repository per service or project.
+This document explains the Microrepo approach in simple terms, covering its features, advantages, disadvantages, workflow, and best practices.
+
+A Version Control System (VCS) helps teams manage source code, track changes, and collaborate safely. In a Microrepo setup, Git is commonly used to manage each service or project in its own separate repository.
+
+---
+
+## 2. What is a Microrepo?
+
+A Microrepo approach is a way of managing code where each service or project has its own separate Git repository.  
+Instead of keeping all code in one place, every service is stored and managed independently.
 
 **Example**
 
@@ -36,11 +46,11 @@ A Microrepo approach means one repository per service or project.
 
 - frontend-repo
 
-Each repo is independent.
+Each repository is independent.
 
 ---
 
-## 4. Microrepo Features
+## 3. Microrepo Features
 
 - One service per repository
 
@@ -54,7 +64,7 @@ Each repo is independent.
 
 ---
 
-## 5. Advantages of Microrepo
+## 4. Advantages of Microrepo
 
 - Faster CI/CD
 
@@ -66,7 +76,7 @@ Each repo is independent.
 
 ---
 
-## 6. Challenges / Disadvantages of Microrepo
+## 5. Challenges / Disadvantages of Microrepo
 
 - Code duplication risk
 
@@ -78,27 +88,27 @@ Each repo is independent.
 
 ---
 
-## 7. Microrepo Workflow
+## 6. Microrepo Workflow
 
-- Developer clones specific repo
-
-- Creates feature branch
-
-- Makes changes
-
+- Developer clones a specific repository
+  
+- Creates a feature branch
+  
+- Makes code changes
+  
 - Runs tests
-
-- Creates PR
-
-- CI runs only for that repo
-
-- Merge and deploy independently
+    
+- Creates a Pull Request (PR)
+   
+- CI pipeline runs only for that repository
+   
+- Service is merged and deployed independently  
 
 ---
 
-## 8. Microrepo Best Practices
+## 7. Microrepo Best Practices
 
-- Follow same repo template
+- Follow the same repository template
 
 - Use shared libraries as packages
 
@@ -106,22 +116,18 @@ Each repo is independent.
 
 - Automate repo creation
 
-- Use clear naming convention
+- Use clear naming conventions
 
 ---
 
 
-## 9. Conclusion
+## 8. Conclusion
 
-- Monorepo is simple and good for small teams.
-
-- Microrepo is best for large teams and microservices architecture
-
-Choose based on team size, project complexity, and deployment needs.
+Microrepo is best for large teams and microservices projects. It allows teams to work and deploy services independently.
 
 ---
 
-## 10. Contact Information
+## 9. Contact Information
 
 | Contact Type | Details                                                             |
 | ------------ | ------------------------------------------------------------------- |
@@ -129,10 +135,10 @@ Choose based on team size, project complexity, and deployment needs.
 
 ---
 
-## 11. References
+## 10. References
 | References Link | Description |
 | --------------------- | --------------------------- |
 | [Git Documentation](https://git-scm.com/doc) | Git Official Documentation |
-| [Monorepo Practices](https://about.google/monorepo/) | Google Monorepo Practices |
+| [Microservices](https://microservices.io/) | Microservices Architecture |
 
 ---
