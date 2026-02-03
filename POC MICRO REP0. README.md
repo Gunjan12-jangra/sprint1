@@ -1,4 +1,4 @@
-# VCS Design + POC | Micro Repo
+# Micro Repo
 
 ---
 
