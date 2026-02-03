@@ -1,4 +1,4 @@
-# VCS Design + POC | Mono Repo & Micro Repo
+# VCS Design + POC | Micro Repo
 
 ---
 
