@@ -22,7 +22,7 @@
 4. [Best Practices for Commit Hooks](#4-best-practices-for-commit-hooks)
 5. [FAQ (Frequently Asked Questions)](#5-faq-frequently-asked-questions)
 6. [Contact Information](#6-contact-information)
-7. [References](#references)
+7. [References](#7-references)
 
 ---
 
