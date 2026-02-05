@@ -84,6 +84,8 @@ Commit hooks are part of client-side Git hooks and mainly include:
 
 - Apply commit message templates
 
+---
+
 ### 3.3 commit-msg
 
 - Runs after the commit message is written
@@ -95,6 +97,8 @@ Commit hooks are part of client-side Git hooks and mainly include:
 - Enforce conventional commits (feat, fix, chore)
 
 - Prevent empty or vague commit messages
+
+---
 
 ### 3.4 post-commit
 
