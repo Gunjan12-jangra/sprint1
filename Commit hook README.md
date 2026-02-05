@@ -160,7 +160,7 @@ The commit is cancelled, and Git shows the error message from the hook.
 
 ## 7. References
 
-| Reference Name | Description |
+| Reference Link | Description |
 |----------------|-------------|
 | [Git Documentation – Hooks](https://git-scm.com/docs/githooks) | Official Git documentation explaining Git Hooks and their lifecycle |
 | [Git Workflow Best Practices](https://www.atlassian.com/git/tutorials/comparing-workflows) | Explains Git workflows, commit standards, and best practices |
