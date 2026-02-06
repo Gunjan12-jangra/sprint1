@@ -29,6 +29,7 @@
 ## 1. Introduction
 
 The purpose of this document is to explain GitOps in simple terms and give a clear understanding of its concepts, workflows, tools, and best practices.
+
 GitOps is a DevOps approach used to manage infrastructure and application deployments using Git. In GitOps, Git becomes the central place where the desired state of systems is defined.
 GitOps tools automatically apply the changes from Git to the target environments.
 
