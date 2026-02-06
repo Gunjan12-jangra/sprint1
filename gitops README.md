@@ -146,15 +146,19 @@ This workflow removes the need for manual deployments.
 ## 9. FAQs
 
 **Q1. What is GitOps in simple terms?**
+
 GitOps means managing deployments and infrastructure using Git.
 
 **Q2. Is GitOps only for Kubernetes?**
+
 GitOps is mostly used with Kubernetes, but it can be applied elsewhere.
 
 **Q3. Does GitOps replace CI/CD?**
+
 No. GitOps works together with CI/CD pipelines.
 
 **Q4. Is GitOps secure?**
+
 Yes, when Git access and permissions are managed properly.
 
 ---
