@@ -36,7 +36,7 @@
 
 ## 1. Purpose
 
-The purpose of this document is to clearly explain the Pull Request (PR) in a simple and easy-to-understand way. It describes what changes are included, why they are required, and how they can be reviewed, tested, and deployed. This helps reviewers quickly understand the PR and ensures smooth implementation.
+The purpose of this document is to clearly explain the Pull Request (PR) in a simple and easy-to-understand way. It describes what changes are included, why they are required, and how they can be reviewed, tested, and deployed.
 
 ---
 
