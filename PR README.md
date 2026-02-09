@@ -1,219 +1,231 @@
 # PR Documentation
 
-## Table of Contents
+---
 
-1. [Description](#description)
-2. [Purpose](#1-purpose)
-3. [What](#2-what)
-4. [Why](#3-why)
-5. [Advantages](#4-advantages)
-6. [Disadvantages](#5-disadvantages)
-7. [Pre-requisites](#6-pre-requisites)
-   - [System Requirements](#61-system-requirements)
-   - [Software Requirements](#62-software-requirements)
-8. [Dependencies](#7-dependencies)
-   - [Build-time Dependencies](#71-build-time-dependencies)
-   - [Run-time Dependencies](#72-run-time-dependencies)
-   - [Important Ports](#73-important-ports)
-9. [Architecture](#8-architecture)
-   - [Diagram](#81-diagram)
-   - [Data Flow](#82-data-flow)
-10. [Step-by-Step Installation](#9-step-by-step-installation)
-    - [Step 1 – Setup](#91-step-1--setup)
-    - [Step 2 – Build and Configure](#92-step-2--build-and-configure)
-    - [Step 3 – Deploy and Verify](#93-step-3--deploy-and-verify)
-11. [Best Practices](#10-best-practices)
-12. [Disaster Recovery](#11-disaster-recovery)
-13. [High Availability](#12-high-availability)
-14. [Troubleshooting](#13-troubleshooting)
-15. [FAQ](#14-faq)
-16. [Conclusion](#15-conclusion)
-17. [Contact Information](#16-contact-information)
-18. [References](#17-references)
+## Authors
+
+| Author           | Created     | Version | Last updated by | Last Edited On | L0 Reviewer | L1 Reviewer | L2 Reviewer |
+|------------------|-------------|---------|------------------|---------------|-------------|-------------|-------------|
+| Gunjan Jangra    | 09-02-2026  | 1.0     | Gunjan Jangra    | 09-02-2026    |             |             |             |
 
 ---
 
-## Description
+## Table of Contents
 
-This document provides detailed documentation for the Pull Request (PR). It explains the purpose of the changes, system requirements, dependencies, architecture overview, installation steps, and operational considerations. The documentation follows a standard template to ensure clarity, consistency, and ease of review.
+1. [Purpose](#1-purpose)  
+2. [What](#2-what)  
+3. [Why](#3-why)  
+4. [Advantages](#4-advantages)  
+5. [Disadvantages](#5-disadvantages)  
+6. [Pre-requisites](#6-pre-requisites)  
+7. [System Requirements](#7-system-requirements)  
+8. [Software Requirements](#8-software-requirements)  
+9. [Dependencies](#9-dependencies)  
+10. [Architecture](#10-architecture)  
+11. [Step-by-Step Installation](#11-step-by-step-installation)  
+12. [Best Practices](#12-best-practices)  
+13. [Disaster Recovery](#13-disaster-recovery)  
+14. [High Availability](#14-high-availability)  
+15. [Troubleshooting](#15-troubleshooting)  
+16. [FAQ](#16-faq)  
+17. [Conclusion](#17-conclusion)  
+18. [Contact Information](#18-contact-information)  
+19. [References](#19-references)  
 
 ---
 
 ## 1. Purpose
 
-The purpose of this Pull Request is to introduce improvements, fixes, or new functionality to the existing system. This PR ensures that changes are well-documented, reviewed, and aligned with best practices, making the codebase more maintainable and reliable.
+The purpose of this document is to clearly explain the Pull Request (PR) in a simple and easy-to-understand way. It describes what changes are included, why they are required, and how they can be reviewed, tested, and deployed. This helps reviewers quickly understand the PR and ensures smooth implementation.
 
 ---
 
 ## 2. What
 
 This Pull Request includes:
-- Code changes and enhancements  
-- Configuration updates (if any)  
-- Documentation updates aligned with project standards  
 
-The changes are designed to improve system functionality, stability, or performance without impacting existing workflows.
+- Required code changes or improvements  
+- Configuration updates (if applicable)  
+- Related documentation updates  
+
+The changes are designed to improve the system without breaking existing functionality.
 
 ---
 
 ## 3. Why
 
 This PR is required to:
-- Address existing issues or limitations  
-- Improve code quality and maintainability  
+
+- Fix existing issues or gaps  
+- Improve code quality and clarity  
 - Enhance system performance or security  
-- Align the project with updated requirements or standards  
+- Meet updated project requirements  
 
 ---
 
 ## 4. Advantages
 
 The key advantages of this PR are:
-- Improved code readability and structure  
-- Reduced risk of bugs and errors  
-- Better scalability and maintainability  
-- Clear documentation for future reference  
+
+- Better and cleaner code structure  
+- Reduced risk of errors  
+- Easier maintenance in the future  
+- Clear documentation for reference  
 
 ---
 
 ## 5. Disadvantages
 
-Possible limitations or risks include:
-- Temporary effort required for review and testing  
-- Minor learning curve for understanding new changes  
-- Potential dependency updates  
+- It may take some time for review and testing  
+- A small effort may be needed to understand the changes  
+- Initial setup or verification can take extra time  
 
 ---
 
 ## 6. Pre-requisites
 
-### 6.1 System Requirements
-
-Before reviewing or testing this PR, ensure:
-- Adequate system resources (CPU, memory, storage)  
-- Stable network connectivity  
-- Access to the project repository  
-
-### 6.2 Software Requirements
-
-The following software is required:
-- Supported operating system  
-- Required programming language runtime  
-- Version control system (Git)  
+| Requirement | Description |
+|------------|-------------|
+| Repository Access | Access to the project repository |
+| Application Knowledge | Basic understanding of the application |
+| Permissions | Required permissions for review and deployment |
 
 ---
 
-## 7. Dependencies
+## 7. System Requirements
 
-### 7.1 Build-time Dependencies
-
-Dependencies required during the build process:
-- Build tools and frameworks  
-- Required libraries and packages  
-
-### 7.2 Run-time Dependencies
-
-Dependencies required at runtime:
-- Databases or external services  
-- APIs or third-party integrations  
-
-### 7.3 Important Ports
-
-| Service      | Port | Description             |
-|--------------|------|-------------------------|
-| Application  | 8080 | Application access      |
-| Database     | 3306 | Database connectivity   |
+| Requirement | Description |
+|------------|-------------|
+| CPU / Memory / Storage | Sufficient resources for build and testing |
+| Network | Stable internet connectivity |
+| Repository Access | Git repository access |
 
 ---
 
-## 8. Architecture
+## 8. Software Requirements
 
-### 8.1 Diagram
-
-The architecture diagram provides a high-level view of system components affected by this PR and their interactions.
-
-### 8.2 Data Flow
-
-The data flow describes how requests are processed after applying the changes from this PR, from request initiation to response delivery.
+| Software | Description |
+|---------|-------------|
+| Operating System | Any supported OS |
+| Programming Runtime | Required language runtime |
+| Version Control | Git |
 
 ---
 
-## 9. Step-by-Step Installation
+## 9. Dependencies
 
-### 9.1 Step 1 – Setup
+### 9.1. Build-time Dependencies
+
+| Item | Details |
+|------|---------|
+| Build Tools | Tools required to build the application |
+| Packages | Libraries used during build |
+
+### 9.2. Run-time Dependencies
+
+| Item | Details |
+|------|---------|
+| Database | Required database |
+| Services | External services |
+| Integrations | Third-party APIs |
+
+### 9.3. Important Ports
+
+| Service | Port | Description |
+|--------|------|-------------|
+| Application | 8080 | Application access |
+| Database | 3306 | Database connectivity |
+
+---
+
+## 10. Architecture
+
+### 10.1. Diagram
+
+The architecture diagram provides a high-level overview of system components impacted by this PR.
+
+### 10.2. Data Flow
+
+The data flow explains how requests are processed after applying the PR changes.
+
+---
+
+## 11. Step-by-Step Installation
+
+### Step 1 – Setup
 - Clone the repository  
-- Checkout the feature or PR branch  
+- Checkout the feature/PR branch  
 
-### 9.2 Step 2 – Build and Configure
-- Install required dependencies  
+### Step 2 – Build and Configure
+- Install dependencies  
 - Apply configuration changes  
 
-### 9.3 Step 3 – Deploy and Verify
+### Step 3 – Deploy and Verify
 - Deploy the changes  
-- Validate functionality through testing  
+- Validate using test cases  
 
 ---
 
-## 10. Best Practices
+## 12. Best Practices
 
-- Follow coding and documentation standards  
-- Ensure proper code reviews before merging  
-- Write meaningful commit messages  
-- Test changes in a non-production environment  
-- Keep PRs focused and minimal  
-
----
-
-## 11. Disaster Recovery
-
-In case of issues after merging:
-- Revert the PR if necessary  
-- Restore the previous stable version  
-- Validate system health and data integrity  
+- Keep PRs small and focused  
+- Follow coding standards  
+- Add meaningful commit messages  
+- Test changes before merging  
 
 ---
 
-## 12. High Availability
+## 13. Disaster Recovery
 
-The changes introduced in this PR do not impact system availability. Existing redundancy, failover, and load balancing mechanisms remain intact.
+In case of any issue after deployment:
 
----
-
-## 13. Troubleshooting
-
-Common issues and solutions:
-- **Build failure:** Verify dependencies and versions  
-- **Runtime error:** Check logs and configuration  
-- **Unexpected behavior:** Revalidate changes introduced in this PR  
+- Roll back to the previous stable version  
+- Restore backups if required  
+- Check logs for root cause  
+- Re-validate application after recovery  
 
 ---
 
-## 14. FAQ
+## 14. High Availability
 
-**Q1: Does this PR introduce breaking changes?**  
-No, the changes are backward compatible unless explicitly mentioned.
+This PR does not impact system availability. Existing redundancy, failover, and load balancing mechanisms continue to function as expected.
 
-**Q2: Is rollback supported?**  
+---
+
+## 15. Troubleshooting
+
+- **Build Failure:** Verify dependency versions  
+- **Runtime Errors:** Check application logs and configuration  
+
+---
+
+## 16. FAQ
+
+**Q: Does this PR break existing functionality?**  
+No, the changes are backward compatible.
+
+**Q: Can this PR be rolled back?**  
 Yes, the PR can be reverted if required.
 
 ---
 
-## 15. Conclusion
+## 17. Conclusion
 
-This Pull Request improves the system while maintaining stability and code quality. Following best practices and thorough reviews ensures safe and effective integration into the main codebase.
-
----
-
-## 16. Contact Information
-
-| Contact Type | Details                                                             |
-| ------------ | ------------------------------------------------------------------- |
-| Email        | [gunjan.jangra.snaatak@mygurukulam.co](mailto:gunjan.jangra.snaatak@mygurukulam.co) |
+This PR improves system quality while maintaining stability. Proper review and testing will ensure smooth integration.
 
 ---
 
-## 17. References
+## 18. Contact Information
 
-- Project coding standards  
-- Internal documentation  
-- Official tool or framework documentation  
+| Contact Type | Details |
+|-------------|---------|
+| Email | gunjan.jangra.snaatak@mygurukulam.co |
+
+---
+
+## 19. References
+
+| References Link | Description |
+|-----------------|-------------|
+| [Project Coding Standards](./docs/coding-standards.md) | Defines coding guidelines and best practices followed during development |
+| [Internal Documentation](./docs/README.md) | Contains internal guides, setup instructions and process-related documentation |
