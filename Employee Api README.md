@@ -24,7 +24,7 @@
 
 ---
 
-## Purpose
+## 1. Purpose
 
 The Employee API is a **Golang microservice** for managing employee data.  
 
@@ -38,7 +38,7 @@ This POC demonstrates:
 
 ---
 
-## Prerequisites
+## 2. Prerequisites
 
 | Requirement        | Version / Notes       |
 |-------------------|---------------------|
@@ -51,7 +51,7 @@ This POC demonstrates:
 
 ---
 
-## Deployment Steps
+## 3. Deployment Steps
 
 ### Step 1: Create and Access EC2 Instance
 
