@@ -60,7 +60,7 @@ Before deploying the Frontend Application, ensure the following requirements are
 
 ---
 
-### 3.1 Frontend Server Requirements
+### 3.1. Frontend Server Requirements
 
 | Hardware Specifications | Minimum Recommendation |
 |------------------------|------------------------|
@@ -71,7 +71,7 @@ Before deploying the Frontend Application, ensure the following requirements are
 
 ---
 
-### 3.2 Bastion Server Requirements
+### 3.2. Bastion Server Requirements
 
 | Hardware Specifications | Minimum Recommendation |
 |------------------------|------------------------|
@@ -84,7 +84,7 @@ The Bastion server is used for secure access and reverse proxy.
 
 ---
 
-### 3.3 Network & Connectivity Requirements
+### 3.3. Network & Connectivity Requirements
 
 Required connectivity:
 
@@ -96,7 +96,7 @@ Frontend server must remain private.
 
 ---
 
-### 3.4 Security Requirements
+### 3.4. Security Requirements
 
 - Frontend server must be in private subnet  
 - Bastion server must be in public subnet  
@@ -108,7 +108,7 @@ Frontend server must remain private.
 
 ## 4. Dependencies
 
-### 4.1 Build Time Dependencies
+### 4.1. Build Time Dependencies
 
 | Name | Version | Description |
 |-----|---------|-------------|
@@ -117,7 +117,7 @@ Frontend server must remain private.
 
 ---
 
-### 4.2 Run Time Dependencies
+### 4.2. Run Time Dependencies
 
 | Name | Version | Description |
 |-----|---------|-------------|
@@ -129,7 +129,7 @@ Frontend server must remain private.
 
 ## 5. Important Ports
 
-### 5.1 Inbound Ports
+### 5.1. Inbound Ports
 
 | Port | Description |
 |------|-------------|
@@ -139,7 +139,7 @@ Frontend server must remain private.
 
 ---
 
-### 5.2 Outbound Ports
+### 5.2. Outbound Ports
 
 | Port | Description |
 |------|-------------|
