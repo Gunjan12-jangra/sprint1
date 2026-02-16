@@ -6,7 +6,7 @@
 
 | Author | Created on | Version | Last updated by | Last edited on | L0 Reviewer | L1 Reviewer | L2 Reviewer |
 |--------|------------|---------|-----------------|----------------|-------------|-------------|-------------|
-| Gunjan Jangra | 04-02-2026 | v1.0 | Gunjan Jangra | 16-02-2026 | Sharvari Khamkar | Aman Raj | Abhishek Dubey / Ravindra Kumar |
+| Gunjan Jangra | 17-02-2026 | v1.0 | Gunjan Jangra | 17-02-2026 | Sharvari Khamkar | Aman Raj | Abhishek Dubey / Ravindra Kumar |
 
 ---
 
