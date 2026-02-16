@@ -108,7 +108,7 @@ Frontend server must remain private.
 
 ## 4. Dependencies
 
-### Build Time Dependencies
+### 4.1 Build Time Dependencies
 
 | Name | Version | Description |
 |-----|---------|-------------|
@@ -117,7 +117,7 @@ Frontend server must remain private.
 
 ---
 
-### Run Time Dependencies
+### 4.2 Run Time Dependencies
 
 | Name | Version | Description |
 |-----|---------|-------------|
@@ -129,7 +129,7 @@ Frontend server must remain private.
 
 ## 5. Important Ports
 
-### Inbound Ports
+### 5.1 Inbound Ports
 
 | Port | Description |
 |------|-------------|
@@ -139,7 +139,7 @@ Frontend server must remain private.
 
 ---
 
-### Outbound Ports
+### 5.2 Outbound Ports
 
 | Port | Description |
 |------|-------------|
