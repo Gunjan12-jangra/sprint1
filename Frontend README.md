@@ -295,11 +295,8 @@ sudo systemctl status nginx
 Recovery steps:
 
 - Restart frontend service
-
 - Restart nginx
-
 - Redeploy application
-
 - Restore backup if needed
 
 ---
@@ -310,9 +307,7 @@ Recovery steps:
 To ensure high availability:
 
 - Deploy multiple frontend instances
-
 - Use load balancer
-
 - Use auto scaling
 
 ---
